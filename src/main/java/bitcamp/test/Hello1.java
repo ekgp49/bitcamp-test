@@ -11,6 +11,8 @@ public class Hello1 {
     } else {
       System.out.println("아 더 짱짱맨");
     }
+    System.out.println("김다혜");
+    System.out.println("은정");
   }
 
 }
