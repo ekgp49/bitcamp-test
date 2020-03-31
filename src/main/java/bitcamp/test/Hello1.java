@@ -16,6 +16,10 @@ public class Hello1 {
     }
     System.out.println("노기현.");
     System.out.println("핫!!");
+
+    System.out.println("동영변경");
+    System.out.println("날씨좋당");
+
   }
 
 }
