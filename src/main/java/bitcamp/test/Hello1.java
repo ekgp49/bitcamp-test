@@ -7,6 +7,7 @@ public class Hello1 {
     System.out.println("손동영 추가!");
 
     // 공부말고 한강가서 놀고 싶어요!!!!!!
+    System.out.println("은정");
   }
 
 
