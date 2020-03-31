@@ -26,6 +26,7 @@ public class Hello1 {
 
     System.out.println("즐거워보이네요~");
     System.out.println("또 수정");
+    System.out.println("은정수정");
 
   }
 
