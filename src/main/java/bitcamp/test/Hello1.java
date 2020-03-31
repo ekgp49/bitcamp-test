@@ -16,6 +16,7 @@ public class Hello1 {
 
     // 공부말고 한강가서 놀고 싶어요!!!!!!
     System.out.println("은정");
+
   }
 
 
