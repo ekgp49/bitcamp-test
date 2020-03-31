@@ -18,7 +18,8 @@ public class Hello1 {
     System.out.println("핫!!");
 
     System.out.println("동영변경");
-    System.out.println("날씨좋당");
+    System.out.println("날씨좋당!!");
+    System.out.println("변경1");
 
   }
 
