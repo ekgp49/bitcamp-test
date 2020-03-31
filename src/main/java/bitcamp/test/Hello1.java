@@ -12,10 +12,9 @@ public class Hello1 {
       System.out.println("아 더 짱짱맨");
     }
     System.out.println("김다혜");
-    System.out.println("손동영 추가!");
+    System.out.println("노기현.");
 
-    // 공부말고 한강가서 놀고 싶어요!!!!!!
-    System.out.println("은정");
+    System.out.println("동영변경");
 
   }
 
