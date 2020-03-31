@@ -23,7 +23,7 @@ public class Hello1 {
     System.out.println("변경2");
 
     System.out.println("변경1");
-
+    
     System.out.println("즐거워보이네요~");
 
   }
