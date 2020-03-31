@@ -13,6 +13,7 @@ public class Hello1 {
     }
     System.out.println("김다혜");
     System.out.println("은정");
+    System.out.println("지윤");
   }
 
 }
