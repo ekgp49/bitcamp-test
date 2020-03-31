@@ -15,6 +15,7 @@ public class Hello1 {
       System.out.println("아 더 짱짱맨");
     }
     System.out.println("노기현.");
+    System.out.println("..");
     System.out.println("핫!!");
 
     System.out.println("동영변경");
