@@ -105,13 +105,13 @@ CREATE TABLE coaches (
   members           INTEGER      NULL     COMMENT '회원수', -- 회원수
   create_date       DATE         NOT NULL DEFAULT now() COMMENT '가입일', -- 가입일
   bank              VARCHAR(30)  NULL     COMMENT '은행', -- 은행
-  account           INTEGER      NULL     COMMENT '계좌번호', -- 계좌번호
-  type              VARCHAR(50)  NOT NULL COMMENT '유형', -- 유형
+  account           VARCHAR(30)  NULL     COMMENT '계좌번호', -- 계좌번호
+  work_type         VARCHAR(50)  NOT NULL COMMENT '유형', -- 유형
   address           VARCHAR(255) NULL     COMMENT '주소', -- 주소
   latitude          VARCHAR(50)  NULL     COMMENT '위도', -- 위도
   longitude         VARCHAR(50)  NULL     COMMENT '경도', -- 경도
   withdrawal        INTEGER      NULL     COMMENT '탈퇴여부', -- 탈퇴여부
-  withdrawal_date   DATE         NULL     DEFAULT now() COMMENT '탈퇴날짜', -- 탈퇴날짜
+  withdrawal_date   DATE         NULL     COMMENT '탈퇴날짜', -- 탈퇴날짜
   withdrawal_reason TEXT         NULL     COMMENT '탈퇴이유' -- 탈퇴이유
 )
 COMMENT '코치';
@@ -217,12 +217,12 @@ CREATE TABLE member_coaching_programs (
   remark            TEXT        NULL     COMMENT '특이사항', -- 특이사항
   status            VARCHAR(50) NOT NULL COMMENT '상태', -- 상태
   request_date      DATETIME    NOT NULL DEFAULT now() COMMENT '신청일', -- 신청일
-  pay_date          DATETIME    NULL     DEFAULT now() COMMENT '결제일', -- 결제일
+  pay_date          DATETIME    NULL     COMMENT '결제일', -- 결제일
   start_date        DATE        NOT NULL COMMENT '시작일', -- 시작일
   end_date          DATE        NOT NULL COMMENT '종료일', -- 종료일
   star_rate         INTEGER     NULL     COMMENT '별점', -- 별점
   review            TEXT        NULL     COMMENT '후기', -- 후기
-  review_date       DATETIME    NULL     DEFAULT now() COMMENT '후기작성일', -- 후기작성일
+  review_date       DATETIME    NULL     COMMENT '후기작성일', -- 후기작성일
   etc               TEXT        NULL     COMMENT '비고' -- 비고
 )
 COMMENT '회원코칭프로그램';
@@ -360,7 +360,7 @@ CREATE TABLE calendar_files (
   file_no     INTEGER      NOT NULL COMMENT '첨부파일번호', -- 첨부파일번호
   calendar_no INTEGER      NOT NULL COMMENT '회원코칭프로그램일정번호', -- 회원코칭프로그램일정번호
   path        VARCHAR(255) NOT NULL COMMENT '파일경로', -- 파일경로
-  type        VARCHAR(255) NOT NULL COMMENT '파일유형' -- 파일유형
+  file_type   VARCHAR(255) NOT NULL COMMENT '파일유형' -- 파일유형
 )
 COMMENT '첨부파일';
 
