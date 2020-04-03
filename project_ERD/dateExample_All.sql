@@ -98,7 +98,7 @@ insert into weight(weight_no, member_no, weight, measure_date)
 value (1, 1, 65, '2020-04-02');
 
 insert into weight(weight_no, member_no, weight, measure_date)
-value (1, 1, 64, '2020-04-03');
+value (2, 1, 64, '2020-04-03');
 
 insert into weight(weight_no, member_no, weight, measure_date)
 value (3, 2, 70, '2020-04-02');
@@ -119,16 +119,16 @@ insert into weight(weight_no, member_no, weight, measure_date)
 value (8, 7, 54, '2020-04-02');
 
 insert into weight(weight_no, member_no, weight, measure_date)
-value (8, 8, 99, '2020-04-02');
+value (9, 8, 99, '2020-04-02');
 
 insert into weight(weight_no, member_no, weight, measure_date)
-value (9, 8, 97, '2020-04-03');
+value (10, 8, 97, '2020-04-03');
 
 insert into weight(weight_no, member_no, weight, measure_date)
-value (9, 9, 77, '2020-04-02');
+value (11, 9, 77, '2020-04-02');
 
 insert into weight(weight_no, member_no, weight, measure_date)
-value (10, 10, 66, '2020-04-02');
+value (12, 10, 66, '2020-04-02');
 
 
 -- 코칭프로그램 샘플데이터
