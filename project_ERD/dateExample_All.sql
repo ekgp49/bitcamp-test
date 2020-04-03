@@ -434,29 +434,34 @@ insert into coaching_program_tags(tag_no, program_no)
   values (6,3);
 insert into coaching_program_tags(tag_no, program_no)
   values (8,3);
-  
+ 
+-- 코칭방식
+insert into coaching_systems(coaching_system_no, name)
+  values (1, '온라인');
+insert into coaching_systems(coaching_system_no, name)
+  values (2, '오프라인');
   
 --코칭프로그램방식
 insert into program_coaching_systems(coaching_system_no, program_no)
   values (1, 1);
 insert into program_coaching_systems(coaching_system_no, program_no)
-  values (2, 2);
+  values (1, 2);
 insert into program_coaching_systems(coaching_system_no, program_no)
-  values (3, 3);
+  values (1, 3);
 insert into program_coaching_systems(coaching_system_no, program_no)
-  values (4, 4);
+  values (1, 4);
 insert into program_coaching_systems(coaching_system_no, program_no)
-  values (5, 5);
+  values (1, 5);
 insert into program_coaching_systems(coaching_system_no, program_no)
-  values (6, 6);
+  values (2, 6);
 insert into program_coaching_systems(coaching_system_no, program_no)
-  values (7, 7);
+  values (2, 7);
 insert into program_coaching_systems(coaching_system_no, program_no)
-  values (8, 8);
+  values (2, 8);
 insert into program_coaching_systems(coaching_system_no, program_no)
-  values (9, 9);
+  values (2, 9);
 insert into program_coaching_systems(coaching_system_no, program_no)
-  values (10, 10);
+  values (2, 10);
   
 
   
